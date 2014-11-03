@@ -1,0 +1,23 @@
+/* 
+  UIXLocalization.strings
+  UIXRefreshControl
+
+  Created by WangXiaoXiang on 14/10/21.
+  Copyright (c) 2014年 WangXiaoXiang. All rights reserved.
+*/
+
+"UIX_TIP" = "Tip";
+
+"UIX_REFRESH_NORMAL" = "QDate😘.";
+
+"UIX_REFRESH_PULLING" = "Pull down to refresh.";
+
+"UIX_REFRESH_PULLUP" = "Pull up to refresh.";
+
+"UIX_REFRESH_RR" = "Release to refresh.";
+
+"UIX_REFRESH_REFRESHING" = "Refreshing... :-)";
+
+"UIX_REFRESH_FINISH" = "Finish.";
+
+"UIX_REFRESH_NO_MORE" ="No more.";

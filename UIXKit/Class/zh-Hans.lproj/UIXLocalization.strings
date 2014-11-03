@@ -1,0 +1,22 @@
+/* 
+  UIXLocalization.strings
+  UIXRefreshControl
+
+  Created by WangXiaoXiang on 14/10/21.
+  Copyright (c) 2014年 WangXiaoXiang. All rights reserved.
+*/
+"UIX_TIP" = "提示";
+
+"UIX_REFRESH_NORMAL" = "求约会😘";
+
+"UIX_REFRESH_PULLING" = "下拉刷新";
+
+"UIX_REFRESH_PULLUP" = "上拉加载更多";
+
+"UIX_REFRESH_RR" = "释放刷新";
+
+"UIX_REFRESH_REFRESHING" = "加载中... :-)";
+
+"UIX_REFRESH_FINISH" ="刷新完成";
+
+"UIX_REFRESH_NO_MORE" ="没有更多了";
