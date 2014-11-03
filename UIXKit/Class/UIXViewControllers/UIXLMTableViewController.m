@@ -10,6 +10,9 @@
 
 @implementation UIXLMTableViewController
 
+-(void)dealloc{
+    [self.pullUpControl removeScrollViewAllObserver];
+}
 
 -(void)setPullUpControl:(UIXPullUpControl *)pullUpControl{
     _pullUpControl = pullUpControl;

@@ -63,6 +63,8 @@ typedef NS_ENUM(NSUInteger, UIXRefreshState) {
  */
 @property(nonatomic,assign) UIXRefreshState refreshState;
 
+-(void)removeScrollViewAllObserver;
+
 #pragma mark - SubClass override function(子类需要重写的方法)
 /**
  *  @Author wangxiaoxiang.cn@iCloud.com

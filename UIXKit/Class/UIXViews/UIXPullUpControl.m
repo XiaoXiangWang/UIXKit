@@ -125,6 +125,7 @@ static const CGFloat UIXPullUpHeight = 60.0f;
     if (self) {
         self.delegate = delegate;
         [self _setup];
+        self.refreshState = UIXRefreshStateNormal;
     }
     return self;
 }
@@ -159,9 +160,16 @@ static const CGFloat UIXPullUpHeight = 60.0f;
 }
 
 
+
+
 #pragma mark - Override function
 -(void)setRefreshState:(UIXRefreshState)refreshState{
     if (self.isBadSize) {
+        [super setRefreshState:UIXRefreshStateNormal];
+        return;
+    }
+    if([self _verifyPageNumber] == UIXBeenNoPages){
+        self.pullUpView.textLabel.text = UIXKitLocalizedString(@"UIX_REFRESH_NO_MORE");
         [super setRefreshState:UIXRefreshStateNormal];
         return;
     }
@@ -224,10 +232,12 @@ static const CGFloat UIXPullUpHeight = 60.0f;
 
 -(void)scrollViewChangedContentOffset:(CGPoint)newContentOffset{
 //    NSLog(@"self.scrollView.isDragging:%d",self.scrollView.isDragging);
-    if (self.isBadSize == NO && [self _verifyPageNumber] == UIXHasSomePages && self.enabled) {
+    if (self.enabled && self.refreshState <= UIXRefreshStateReadyToRefresh) {
         if(self.scrollView.isDecelerating && self.refreshState == UIXRefreshStateReadyToRefresh){
             [self beginRefreshing];
-        }else if (self.refreshState < UIXRefreshStateReadyToRefresh && self.scrollView.isDragging){
+            return;
+        }
+        if(self.scrollView.isDragging){
             CGFloat startOffSetY = MAX(self.scrollView.contentSize.height - CGRectGetHeight(self.scrollView.bounds)+self.scrollView.contentInset.top, 0.0f);
             CGFloat currentOffsetY = self.scrollView.contentOffset.y;
             if (currentOffsetY >= startOffSetY ) {
@@ -239,7 +249,6 @@ static const CGFloat UIXPullUpHeight = 60.0f;
                 }else{ //ready
                     self.refreshState = UIXRefreshStateReadyToRefresh;
                 }
-                
             }
         }
         

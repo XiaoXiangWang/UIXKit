@@ -7,6 +7,7 @@
 //
 
 #import "UIXCollectionViewController.h"
+#import "UIXCollectionViewFlowLayout.h"
 
 @interface UIXCollectionViewController ()
 
@@ -60,7 +61,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)dealloc{
+    [self.pullDownControl removeScrollViewAllObserver];
+}
 #pragma mark - Refresh
 
 -(void)setPullDownControl:(UIXPullDownControl *)pullDownControl{

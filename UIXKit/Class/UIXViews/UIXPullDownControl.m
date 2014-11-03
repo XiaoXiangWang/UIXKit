@@ -148,6 +148,9 @@ static const CGFloat UIXPullDownContentHeight = 50.0f;
                                                                    views:NSDictionaryOfVariableBindings(pullDownView)]];
 }
 
+
+
+
 #pragma mark - Refresh state
 -(void)setRefreshState:(UIXRefreshState)refreshState{
     self.hidden = NO;

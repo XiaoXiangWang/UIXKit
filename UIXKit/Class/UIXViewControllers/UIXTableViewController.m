@@ -24,7 +24,7 @@
 #pragma mark - Lifecycle
 -(instancetype)initWithTableViewStyle:(UITableViewStyle)tableViewStyle{
     if (self = [super init]) {
-        NSAssert1(tableViewStyle == UITableViewStyleGrouped || tableViewStyle == UITableViewStylePlain, @"未知的UITableViewStyle:%d", tableViewStyle);
+        NSAssert1(tableViewStyle == UITableViewStyleGrouped || tableViewStyle == UITableViewStylePlain, @"未知的UITableViewStyle:%d", (uint)tableViewStyle);
         self.style = tableViewStyle;
     }
     return self;
@@ -58,6 +58,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)dealloc{
+    [self.pullDownControl removeScrollViewAllObserver];
 }
 #pragma mark - Refresh
 -(void)setPullDownControl:(UIXPullDownControl *)pullDownControl{

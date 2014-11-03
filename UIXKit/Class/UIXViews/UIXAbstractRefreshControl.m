@@ -33,24 +33,28 @@
 }
 
 -(void)dealloc{
-    [self _dismissObserverOfAbstractRefreshControl];
+    [self removeScrollViewAllObserver];
 }
 
 
 #pragma mark - KVO
+
+-(void)removeScrollViewAllObserver{
+    [self _dismissObserverOfAbstractRefreshControl];
+}
 -(void)_registerObserverOfAbstractRefreshControl{
     [self.scrollView addObserver:self
                       forKeyPath:@"contentInset"
                          options:NSKeyValueObservingOptionNew
-                         context:NULL];
+                         context:nil];
     [self.scrollView addObserver:self
                       forKeyPath:@"contentOffset"
                          options:NSKeyValueObservingOptionNew
-                         context:NULL];
+                         context:nil];
     [self.scrollView addObserver:self
                       forKeyPath:@"contentSize"
                          options:NSKeyValueObservingOptionNew
-                         context:NULL];
+                         context:nil];
 }
 -(void)_dismissObserverOfAbstractRefreshControl{
     [self.scrollView removeObserver:self
@@ -59,7 +63,16 @@
                          forKeyPath:@"contentOffset"];
     [self.scrollView removeObserver:self
                          forKeyPath:@"contentSize"];
+    self.scrollView = nil;
 }
+- (void)willMoveToSuperview:(UIView *)newSuperview
+{
+    [super willMoveToSuperview:newSuperview];
+    if (!newSuperview) {
+        [self removeScrollViewAllObserver];
+    }
+}
+
 
 -(void)observeValueForKeyPath:(NSString *)keyPath
                      ofObject:(id)object

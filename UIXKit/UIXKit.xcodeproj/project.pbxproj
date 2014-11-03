@@ -14,6 +14,25 @@
 		1EE816351A075A2600848F69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE816341A075A2600848F69 /* Images.xcassets */; };
 		1EE816381A075A2600848F69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE816361A075A2600848F69 /* LaunchScreen.xib */; };
 		1EE816441A075A2600848F69 /* UIXKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816431A075A2600848F69 /* UIXKitTests.m */; };
+		1EE816761A075C3200848F69 /* UIXLocalization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8164E1A075C3200848F69 /* UIXLocalization.strings */; };
+		1EE816771A075C3200848F69 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816521A075C3200848F69 /* UIView+Animation.m */; };
+		1EE816781A075C3200848F69 /* UIXCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816551A075C3200848F69 /* UIXCollectionViewFlowLayout.m */; };
+		1EE8167A1A075C3200848F69 /* UIXKitDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816581A075C3200848F69 /* UIXKitDefines.m */; };
+		1EE8167B1A075C3200848F69 /* UIXCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8165B1A075C3200848F69 /* UIXCollectionViewController.m */; };
+		1EE8167C1A075C3200848F69 /* UIXLMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8165D1A075C3200848F69 /* UIXLMCollectionViewController.m */; };
+		1EE8167D1A075C3200848F69 /* UIXLMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8165F1A075C3200848F69 /* UIXLMTableViewController.m */; };
+		1EE8167E1A075C3200848F69 /* UIXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816611A075C3200848F69 /* UIXTableViewController.m */; };
+		1EE8167F1A075C3200848F69 /* UIXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816631A075C3200848F69 /* UIXViewController.m */; };
+		1EE816801A075C3200848F69 /* UIXAbstractProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816661A075C3200848F69 /* UIXAbstractProgressView.m */; };
+		1EE816811A075C3200848F69 /* UIXAbstractRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816681A075C3200848F69 /* UIXAbstractRefreshControl.m */; };
+		1EE816821A075C3200848F69 /* UIXActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8166A1A075C3200848F69 /* UIXActivityIndicatorView.m */; };
+		1EE816831A075C3200848F69 /* UIXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8166C1A075C3200848F69 /* UIXCircleProgressView.m */; };
+		1EE816841A075C3200848F69 /* UIXProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8166E1A075C3200848F69 /* UIXProgressView.m */; };
+		1EE816851A075C3200848F69 /* UIXPullDownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816701A075C3200848F69 /* UIXPullDownControl.m */; };
+		1EE816861A075C3200848F69 /* UIXPullUpControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816721A075C3200848F69 /* UIXPullUpControl.m */; };
+		1EE816871A075C3200848F69 /* UIXRefreshCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816741A075C3200848F69 /* UIXRefreshCircleProgressView.m */; };
+		1EE8168C1A075C8700848F69 /* UIXTestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816891A075C8700848F69 /* UIXTestCollectionViewController.m */; };
+		1EE8168D1A075C8700848F69 /* UIXTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8168B1A075C8700848F69 /* UIXTestTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +59,44 @@
 		1EE8163D1A075A2600848F69 /* UIXKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIXKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE816421A075A2600848F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE816431A075A2600848F69 /* UIXKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIXKitTests.m; sourceTree = "<group>"; };
+		1EE8164F1A075C3200848F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UIXLocalization.strings; sourceTree = "<group>"; };
+		1EE816511A075C3200848F69 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		1EE816521A075C3200848F69 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		1EE816541A075C3200848F69 /* UIXCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		1EE816551A075C3200848F69 /* UIXCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		1EE816571A075C3200848F69 /* UIXKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXKitDefines.h; sourceTree = "<group>"; };
+		1EE816581A075C3200848F69 /* UIXKitDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXKitDefines.m; sourceTree = "<group>"; };
+		1EE8165A1A075C3200848F69 /* UIXCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXCollectionViewController.h; sourceTree = "<group>"; };
+		1EE8165B1A075C3200848F69 /* UIXCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXCollectionViewController.m; sourceTree = "<group>"; };
+		1EE8165C1A075C3200848F69 /* UIXLMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXLMCollectionViewController.h; sourceTree = "<group>"; };
+		1EE8165D1A075C3200848F69 /* UIXLMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXLMCollectionViewController.m; sourceTree = "<group>"; };
+		1EE8165E1A075C3200848F69 /* UIXLMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXLMTableViewController.h; sourceTree = "<group>"; };
+		1EE8165F1A075C3200848F69 /* UIXLMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXLMTableViewController.m; sourceTree = "<group>"; };
+		1EE816601A075C3200848F69 /* UIXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXTableViewController.h; sourceTree = "<group>"; };
+		1EE816611A075C3200848F69 /* UIXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXTableViewController.m; sourceTree = "<group>"; };
+		1EE816621A075C3200848F69 /* UIXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXViewController.h; sourceTree = "<group>"; };
+		1EE816631A075C3200848F69 /* UIXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXViewController.m; sourceTree = "<group>"; };
+		1EE816651A075C3200848F69 /* UIXAbstractProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXAbstractProgressView.h; sourceTree = "<group>"; };
+		1EE816661A075C3200848F69 /* UIXAbstractProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXAbstractProgressView.m; sourceTree = "<group>"; };
+		1EE816671A075C3200848F69 /* UIXAbstractRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXAbstractRefreshControl.h; sourceTree = "<group>"; };
+		1EE816681A075C3200848F69 /* UIXAbstractRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXAbstractRefreshControl.m; sourceTree = "<group>"; };
+		1EE816691A075C3200848F69 /* UIXActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXActivityIndicatorView.h; sourceTree = "<group>"; };
+		1EE8166A1A075C3200848F69 /* UIXActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXActivityIndicatorView.m; sourceTree = "<group>"; };
+		1EE8166B1A075C3200848F69 /* UIXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXCircleProgressView.h; sourceTree = "<group>"; };
+		1EE8166C1A075C3200848F69 /* UIXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXCircleProgressView.m; sourceTree = "<group>"; };
+		1EE8166D1A075C3200848F69 /* UIXProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXProgressView.h; sourceTree = "<group>"; };
+		1EE8166E1A075C3200848F69 /* UIXProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXProgressView.m; sourceTree = "<group>"; };
+		1EE8166F1A075C3200848F69 /* UIXPullDownControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXPullDownControl.h; sourceTree = "<group>"; };
+		1EE816701A075C3200848F69 /* UIXPullDownControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullDownControl.m; sourceTree = "<group>"; };
+		1EE816711A075C3200848F69 /* UIXPullUpControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXPullUpControl.h; sourceTree = "<group>"; };
+		1EE816721A075C3200848F69 /* UIXPullUpControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullUpControl.m; sourceTree = "<group>"; };
+		1EE816731A075C3200848F69 /* UIXRefreshCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXRefreshCircleProgressView.h; sourceTree = "<group>"; };
+		1EE816741A075C3200848F69 /* UIXRefreshCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXRefreshCircleProgressView.m; sourceTree = "<group>"; };
+		1EE816751A075C3200848F69 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UIXLocalization.strings"; sourceTree = "<group>"; };
+		1EE816881A075C8700848F69 /* UIXTestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXTestCollectionViewController.h; sourceTree = "<group>"; };
+		1EE816891A075C8700848F69 /* UIXTestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXTestCollectionViewController.m; sourceTree = "<group>"; };
+		1EE8168A1A075C8700848F69 /* UIXTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXTestTableViewController.h; sourceTree = "<group>"; };
+		1EE8168B1A075C8700848F69 /* UIXTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXTestTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +120,7 @@
 		1EE8161B1A075A2600848F69 = {
 			isa = PBXGroup;
 			children = (
+				1EE8164D1A075C3200848F69 /* Class */,
 				1EE816261A075A2600848F69 /* UIXKit */,
 				1EE816401A075A2600848F69 /* UIXKitTests */,
 				1EE816251A075A2600848F69 /* Products */,
@@ -81,6 +139,10 @@
 		1EE816261A075A2600848F69 /* UIXKit */ = {
 			isa = PBXGroup;
 			children = (
+				1EE816881A075C8700848F69 /* UIXTestCollectionViewController.h */,
+				1EE816891A075C8700848F69 /* UIXTestCollectionViewController.m */,
+				1EE8168A1A075C8700848F69 /* UIXTestTableViewController.h */,
+				1EE8168B1A075C8700848F69 /* UIXTestTableViewController.m */,
 				1EE8162B1A075A2600848F69 /* AppDelegate.h */,
 				1EE8162C1A075A2600848F69 /* AppDelegate.m */,
 				1EE8162E1A075A2600848F69 /* ViewController.h */,
@@ -117,6 +179,78 @@
 				1EE816421A075A2600848F69 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE8164D1A075C3200848F69 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1EE816571A075C3200848F69 /* UIXKitDefines.h */,
+				1EE816581A075C3200848F69 /* UIXKitDefines.m */,
+				1EE8164E1A075C3200848F69 /* UIXLocalization.strings */,
+				1EE816501A075C3200848F69 /* UIXCategory */,
+				1EE816531A075C3200848F69 /* UIXHelper */,
+				1EE816591A075C3200848F69 /* UIXViewControllers */,
+				1EE816641A075C3200848F69 /* UIXViews */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1EE816501A075C3200848F69 /* UIXCategory */ = {
+			isa = PBXGroup;
+			children = (
+				1EE816511A075C3200848F69 /* UIView+Animation.h */,
+				1EE816521A075C3200848F69 /* UIView+Animation.m */,
+			);
+			path = UIXCategory;
+			sourceTree = "<group>";
+		};
+		1EE816531A075C3200848F69 /* UIXHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1EE816541A075C3200848F69 /* UIXCollectionViewFlowLayout.h */,
+				1EE816551A075C3200848F69 /* UIXCollectionViewFlowLayout.m */,
+			);
+			path = UIXHelper;
+			sourceTree = "<group>";
+		};
+		1EE816591A075C3200848F69 /* UIXViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8165A1A075C3200848F69 /* UIXCollectionViewController.h */,
+				1EE8165B1A075C3200848F69 /* UIXCollectionViewController.m */,
+				1EE8165C1A075C3200848F69 /* UIXLMCollectionViewController.h */,
+				1EE8165D1A075C3200848F69 /* UIXLMCollectionViewController.m */,
+				1EE8165E1A075C3200848F69 /* UIXLMTableViewController.h */,
+				1EE8165F1A075C3200848F69 /* UIXLMTableViewController.m */,
+				1EE816601A075C3200848F69 /* UIXTableViewController.h */,
+				1EE816611A075C3200848F69 /* UIXTableViewController.m */,
+				1EE816621A075C3200848F69 /* UIXViewController.h */,
+				1EE816631A075C3200848F69 /* UIXViewController.m */,
+			);
+			path = UIXViewControllers;
+			sourceTree = "<group>";
+		};
+		1EE816641A075C3200848F69 /* UIXViews */ = {
+			isa = PBXGroup;
+			children = (
+				1EE816691A075C3200848F69 /* UIXActivityIndicatorView.h */,
+				1EE8166A1A075C3200848F69 /* UIXActivityIndicatorView.m */,
+				1EE816651A075C3200848F69 /* UIXAbstractProgressView.h */,
+				1EE816661A075C3200848F69 /* UIXAbstractProgressView.m */,
+				1EE8166D1A075C3200848F69 /* UIXProgressView.h */,
+				1EE8166E1A075C3200848F69 /* UIXProgressView.m */,
+				1EE8166B1A075C3200848F69 /* UIXCircleProgressView.h */,
+				1EE8166C1A075C3200848F69 /* UIXCircleProgressView.m */,
+				1EE816731A075C3200848F69 /* UIXRefreshCircleProgressView.h */,
+				1EE816741A075C3200848F69 /* UIXRefreshCircleProgressView.m */,
+				1EE816671A075C3200848F69 /* UIXAbstractRefreshControl.h */,
+				1EE816681A075C3200848F69 /* UIXAbstractRefreshControl.m */,
+				1EE8166F1A075C3200848F69 /* UIXPullDownControl.h */,
+				1EE816701A075C3200848F69 /* UIXPullDownControl.m */,
+				1EE816711A075C3200848F69 /* UIXPullUpControl.h */,
+				1EE816721A075C3200848F69 /* UIXPullUpControl.m */,
+			);
+			path = UIXViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +316,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1EE8161B1A075A2600848F69;
 			productRefGroup = 1EE816251A075A2600848F69 /* Products */;
@@ -201,6 +336,7 @@
 			files = (
 				1EE816331A075A2600848F69 /* Main.storyboard in Resources */,
 				1EE816381A075A2600848F69 /* LaunchScreen.xib in Resources */,
+				1EE816761A075C3200848F69 /* UIXLocalization.strings in Resources */,
 				1EE816351A075A2600848F69 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +355,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE8168D1A075C8700848F69 /* UIXTestTableViewController.m in Sources */,
+				1EE8168C1A075C8700848F69 /* UIXTestCollectionViewController.m in Sources */,
+				1EE816821A075C3200848F69 /* UIXActivityIndicatorView.m in Sources */,
+				1EE816811A075C3200848F69 /* UIXAbstractRefreshControl.m in Sources */,
 				1EE816301A075A2600848F69 /* ViewController.m in Sources */,
+				1EE8167C1A075C3200848F69 /* UIXLMCollectionViewController.m in Sources */,
+				1EE8167B1A075C3200848F69 /* UIXCollectionViewController.m in Sources */,
+				1EE816851A075C3200848F69 /* UIXPullDownControl.m in Sources */,
+				1EE816861A075C3200848F69 /* UIXPullUpControl.m in Sources */,
+				1EE8167E1A075C3200848F69 /* UIXTableViewController.m in Sources */,
+				1EE816781A075C3200848F69 /* UIXCollectionViewFlowLayout.m in Sources */,
+				1EE8167A1A075C3200848F69 /* UIXKitDefines.m in Sources */,
+				1EE8167F1A075C3200848F69 /* UIXViewController.m in Sources */,
+				1EE816871A075C3200848F69 /* UIXRefreshCircleProgressView.m in Sources */,
+				1EE816831A075C3200848F69 /* UIXCircleProgressView.m in Sources */,
+				1EE816771A075C3200848F69 /* UIView+Animation.m in Sources */,
+				1EE8167D1A075C3200848F69 /* UIXLMTableViewController.m in Sources */,
 				1EE8162D1A075A2600848F69 /* AppDelegate.m in Sources */,
+				1EE816841A075C3200848F69 /* UIXProgressView.m in Sources */,
+				1EE816801A075C3200848F69 /* UIXAbstractProgressView.m in Sources */,
 				1EE8162A1A075A2600848F69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +412,15 @@
 				1EE816371A075A2600848F69 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1EE8164E1A075C3200848F69 /* UIXLocalization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE8164F1A075C3200848F69 /* en */,
+				1EE816751A075C3200848F69 /* zh-Hans */,
+			);
+			name = UIXLocalization.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +575,7 @@
 				1EE816491A075A2600848F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EE8164A1A075A2600848F69 /* Build configuration list for PBXNativeTarget "UIXKitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +584,7 @@
 				1EE8164C1A075A2600848F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
