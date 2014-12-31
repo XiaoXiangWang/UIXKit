@@ -6,16 +6,16 @@
 //  Copyright (c) 2014年 WangXiaoXiang. All rights reserved.
 //
 
-#import "UIXRefreshCircleProgressView.h"
+#import "UIXRefreshIndicatorView.h"
 #import "UIView+Animation.h"
 
 NSString * const UIXProgressViewRotatingAnimationKey = @"UIXProgressViewRotatingAnimationKey";
 
-@interface UIXRefreshCircleProgressView ()
+@interface UIXRefreshIndicatorView ()
 
 @end
 
-@implementation UIXRefreshCircleProgressView
+@implementation UIXRefreshIndicatorView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

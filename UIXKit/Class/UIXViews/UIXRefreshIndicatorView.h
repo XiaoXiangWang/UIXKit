@@ -9,7 +9,7 @@
 #import "UIXCircleProgressView.h"
 #import "UIXKitDefines.h"
 
-@interface UIXRefreshCircleProgressView : UIXCircleProgressView
+@interface UIXRefreshIndicatorView : UIXCircleProgressView
 /*
  * 基数最大1,最小0.默认为1
  */
