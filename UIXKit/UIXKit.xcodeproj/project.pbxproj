@@ -30,9 +30,14 @@
 		1EE816841A075C3200848F69 /* UIXProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8166E1A075C3200848F69 /* UIXProgressView.m */; };
 		1EE816851A075C3200848F69 /* UIXPullDownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816701A075C3200848F69 /* UIXPullDownControl.m */; };
 		1EE816861A075C3200848F69 /* UIXPullUpControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816721A075C3200848F69 /* UIXPullUpControl.m */; };
-		1EE816871A075C3200848F69 /* UIXRefreshCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816741A075C3200848F69 /* UIXRefreshCircleProgressView.m */; };
+		1EE816871A075C3200848F69 /* UIXRefreshIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816741A075C3200848F69 /* UIXRefreshIndicatorView.m */; };
 		1EE8168C1A075C8700848F69 /* UIXTestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE816891A075C8700848F69 /* UIXTestCollectionViewController.m */; };
 		1EE8168D1A075C8700848F69 /* UIXTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8168B1A075C8700848F69 /* UIXTestTableViewController.m */; };
+		C0CA75C91A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CA75C81A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.m */; };
+		C0CA75CC1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CA75CB1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.m */; };
+		C0CA75CF1A53E9C30096F749 /* UIXPullDownRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CA75CE1A53E9C30096F749 /* UIXPullDownRefreshView.m */; };
+		C0CA75D21A53E9E50096F749 /* UIXPullUpRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CA75D11A53E9E50096F749 /* UIXPullUpRefreshView.m */; };
+		C0CA75D51A53EA050096F749 /* UIXPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CA75D41A53EA050096F749 /* UIXPullToRefreshView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,13 +95,24 @@
 		1EE816701A075C3200848F69 /* UIXPullDownControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullDownControl.m; sourceTree = "<group>"; };
 		1EE816711A075C3200848F69 /* UIXPullUpControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXPullUpControl.h; sourceTree = "<group>"; };
 		1EE816721A075C3200848F69 /* UIXPullUpControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullUpControl.m; sourceTree = "<group>"; };
-		1EE816731A075C3200848F69 /* UIXRefreshCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXRefreshCircleProgressView.h; sourceTree = "<group>"; };
-		1EE816741A075C3200848F69 /* UIXRefreshCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXRefreshCircleProgressView.m; sourceTree = "<group>"; };
+		1EE816731A075C3200848F69 /* UIXRefreshIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXRefreshIndicatorView.h; sourceTree = "<group>"; };
+		1EE816741A075C3200848F69 /* UIXRefreshIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXRefreshIndicatorView.m; sourceTree = "<group>"; };
 		1EE816751A075C3200848F69 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UIXLocalization.strings"; sourceTree = "<group>"; };
 		1EE816881A075C8700848F69 /* UIXTestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXTestCollectionViewController.h; sourceTree = "<group>"; };
 		1EE816891A075C8700848F69 /* UIXTestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXTestCollectionViewController.m; sourceTree = "<group>"; };
 		1EE8168A1A075C8700848F69 /* UIXTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXTestTableViewController.h; sourceTree = "<group>"; };
 		1EE8168B1A075C8700848F69 /* UIXTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXTestTableViewController.m; sourceTree = "<group>"; };
+		C0CA75C71A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UIXPullDownRefresh.h"; sourceTree = "<group>"; };
+		C0CA75C81A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UIXPullDownRefresh.m"; sourceTree = "<group>"; };
+		C0CA75CA1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UIXPullUpRefresh.h"; sourceTree = "<group>"; };
+		C0CA75CB1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UIXPullUpRefresh.m"; sourceTree = "<group>"; };
+		C0CA75CD1A53E9C30096F749 /* UIXPullDownRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXPullDownRefreshView.h; sourceTree = "<group>"; };
+		C0CA75CE1A53E9C30096F749 /* UIXPullDownRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullDownRefreshView.m; sourceTree = "<group>"; };
+		C0CA75D01A53E9E50096F749 /* UIXPullUpRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXPullUpRefreshView.h; sourceTree = "<group>"; };
+		C0CA75D11A53E9E50096F749 /* UIXPullUpRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullUpRefreshView.m; sourceTree = "<group>"; };
+		C0CA75D31A53EA050096F749 /* UIXPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXPullToRefreshView.h; sourceTree = "<group>"; };
+		C0CA75D41A53EA050096F749 /* UIXPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXPullToRefreshView.m; sourceTree = "<group>"; };
+		C0CA75D61A53F1C40096F749 /* IPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPullToRefresh.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,14 +257,25 @@
 				1EE8166E1A075C3200848F69 /* UIXProgressView.m */,
 				1EE8166B1A075C3200848F69 /* UIXCircleProgressView.h */,
 				1EE8166C1A075C3200848F69 /* UIXCircleProgressView.m */,
-				1EE816731A075C3200848F69 /* UIXRefreshCircleProgressView.h */,
-				1EE816741A075C3200848F69 /* UIXRefreshCircleProgressView.m */,
+				1EE816731A075C3200848F69 /* UIXRefreshIndicatorView.h */,
+				1EE816741A075C3200848F69 /* UIXRefreshIndicatorView.m */,
 				1EE816671A075C3200848F69 /* UIXAbstractRefreshControl.h */,
 				1EE816681A075C3200848F69 /* UIXAbstractRefreshControl.m */,
 				1EE8166F1A075C3200848F69 /* UIXPullDownControl.h */,
 				1EE816701A075C3200848F69 /* UIXPullDownControl.m */,
 				1EE816711A075C3200848F69 /* UIXPullUpControl.h */,
 				1EE816721A075C3200848F69 /* UIXPullUpControl.m */,
+				C0CA75D61A53F1C40096F749 /* IPullToRefresh.h */,
+				C0CA75CA1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.h */,
+				C0CA75CB1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.m */,
+				C0CA75C71A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.h */,
+				C0CA75C81A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.m */,
+				C0CA75D31A53EA050096F749 /* UIXPullToRefreshView.h */,
+				C0CA75D41A53EA050096F749 /* UIXPullToRefreshView.m */,
+				C0CA75CD1A53E9C30096F749 /* UIXPullDownRefreshView.h */,
+				C0CA75CE1A53E9C30096F749 /* UIXPullDownRefreshView.m */,
+				C0CA75D01A53E9E50096F749 /* UIXPullUpRefreshView.h */,
+				C0CA75D11A53E9E50096F749 /* UIXPullUpRefreshView.m */,
 			);
 			path = UIXViews;
 			sourceTree = "<group>";
@@ -355,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CA75CF1A53E9C30096F749 /* UIXPullDownRefreshView.m in Sources */,
 				1EE8168D1A075C8700848F69 /* UIXTestTableViewController.m in Sources */,
 				1EE8168C1A075C8700848F69 /* UIXTestCollectionViewController.m in Sources */,
 				1EE816821A075C3200848F69 /* UIXActivityIndicatorView.m in Sources */,
@@ -363,15 +391,19 @@
 				1EE8167C1A075C3200848F69 /* UIXLMCollectionViewController.m in Sources */,
 				1EE8167B1A075C3200848F69 /* UIXCollectionViewController.m in Sources */,
 				1EE816851A075C3200848F69 /* UIXPullDownControl.m in Sources */,
+				C0CA75D51A53EA050096F749 /* UIXPullToRefreshView.m in Sources */,
 				1EE816861A075C3200848F69 /* UIXPullUpControl.m in Sources */,
 				1EE8167E1A075C3200848F69 /* UIXTableViewController.m in Sources */,
 				1EE816781A075C3200848F69 /* UIXCollectionViewFlowLayout.m in Sources */,
 				1EE8167A1A075C3200848F69 /* UIXKitDefines.m in Sources */,
 				1EE8167F1A075C3200848F69 /* UIXViewController.m in Sources */,
-				1EE816871A075C3200848F69 /* UIXRefreshCircleProgressView.m in Sources */,
+				1EE816871A075C3200848F69 /* UIXRefreshIndicatorView.m in Sources */,
+				C0CA75CC1A53E7950096F749 /* UIScrollView+UIXPullUpRefresh.m in Sources */,
 				1EE816831A075C3200848F69 /* UIXCircleProgressView.m in Sources */,
+				C0CA75C91A53E76A0096F749 /* UIScrollView+UIXPullDownRefresh.m in Sources */,
 				1EE816771A075C3200848F69 /* UIView+Animation.m in Sources */,
 				1EE8167D1A075C3200848F69 /* UIXLMTableViewController.m in Sources */,
+				C0CA75D21A53E9E50096F749 /* UIXPullUpRefreshView.m in Sources */,
 				1EE8162D1A075A2600848F69 /* AppDelegate.m in Sources */,
 				1EE816841A075C3200848F69 /* UIXProgressView.m in Sources */,
 				1EE816801A075C3200848F69 /* UIXAbstractProgressView.m in Sources */,

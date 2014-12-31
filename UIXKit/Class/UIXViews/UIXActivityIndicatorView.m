@@ -7,11 +7,11 @@
 //
 
 #import "UIXActivityIndicatorView.h"
-#import "UIXRefreshCircleProgressView.h"
+#import "UIXRefreshIndicatorView.h"
 #import "UIView+Animation.h"
 
 @interface UIXActivityIndicatorView()
-@property(nonatomic,strong) UIXRefreshCircleProgressView*  circleProgressView;
+@property(nonatomic,strong) UIXRefreshIndicatorView*  circleProgressView;
 
 @property(nonatomic,assign,getter=isAnimating) BOOL animating;
 @end
@@ -36,7 +36,7 @@
 }
 
 -(void)_setup{
-    self.circleProgressView = [[UIXRefreshCircleProgressView alloc] initWithFrame:CGRectInset(self.bounds, 4, 4)];
+    self.circleProgressView = [[UIXRefreshIndicatorView alloc] initWithFrame:CGRectInset(self.bounds, 4, 4)];
     self.circleProgressView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
     self.circleProgressView.baseNumber = 0.9f;
     self.circleProgressView.animationDuration = 1.0f;

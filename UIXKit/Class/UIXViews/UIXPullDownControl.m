@@ -7,7 +7,7 @@
 //
 
 #import "UIXPullDownControl.h"
-#import "UIXRefreshCircleProgressView.h"
+#import "UIXRefreshIndicatorView.h"
 
 static const CGFloat UIXPullDownControlHeight = 300.0f;
 static const CGFloat UIXPullDownControlTriggerStartOffsetY = 5.0f;
@@ -19,7 +19,7 @@ static const CGFloat UIXPullDownContentHeight = 50.0f;
 #pragma mark - UIXPullDownView interface
 @interface UIXPullDownView : UIView
 
-@property (nonatomic,strong) UIXRefreshCircleProgressView* progressView;
+@property (nonatomic,strong) UIXRefreshIndicatorView* progressView;
 
 @property (nonatomic,strong) UILabel* textLabel;
 
@@ -41,7 +41,7 @@ static const CGFloat UIXPullDownContentHeight = 50.0f;
 -(void)_setup{
     self.backgroundColor = [UIColor whiteColor];
     
-    UIXRefreshCircleProgressView* progressView = [[UIXRefreshCircleProgressView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+    UIXRefreshIndicatorView* progressView = [[UIXRefreshIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     progressView.baseNumber = 0.95f;
     [self addSubview:progressView];
     self.progressView = progressView;
